@@ -4,7 +4,7 @@ import LoggedReducer from "./LoggedReducer";
 
 const rootReducer = combineReducers({
     counter: CounterReducer,
-    islogged: LoggedReducer
-    
+    islogged: LoggedReducer   
 });
+
 export default rootReducer;
